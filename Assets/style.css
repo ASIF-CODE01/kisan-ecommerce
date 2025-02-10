@@ -7,3 +7,29 @@ FONT FAMILIES NAME
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    
+}
+  /* JUSTIFY CONTENT X AXIS ELEMENT  */
+#NAV-BAR{
+    display: flex;
+    background-color:#000000;
+   color: #FFFFFF; 
+    justify-content: flex-end;
+    gap: 10PX;
+    padding: 10px;.
+       
+}
+#HEAD-SET{
+  padding-right: 10px;
+}
+#NAV-BAR div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
